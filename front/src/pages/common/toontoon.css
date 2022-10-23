@@ -1,0 +1,19 @@
+#tuntun .slider-control-bottomcenter {
+  display: none;
+}
+
+#tuntun .slider {
+  height: 100%;
+}
+
+#tuntun .slider-container {
+  height: 100%;
+}
+
+#tuntun .slider-frame {
+  height: 100% !important;
+}
+
+#tuntun .slider-list {
+  height: 100% !important;
+}

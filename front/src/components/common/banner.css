@@ -1,0 +1,50 @@
+.slider-control-bottomcenter {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  align-items: flex-end;
+  top: 1.75rem;
+}
+.dotsBox {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  gap: 10px;
+  width: 90%;
+  max-height: 20px;
+}
+
+.paging-item {
+  display: flex;
+  border-radius: 0 0 10px 10px;
+  border-top: 1.5px solid black;
+  width: 50%;
+  height: 50%;
+}
+
+.paging-item:hover {
+  opacity: 0.5;
+}
+
+.active {
+  height: 1.8em;
+  border-top: none;
+}
+
+.active:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+  .active {
+    height: 1.2em;
+  }
+  .paging-item {
+    height: 0.8em;
+  }
+  .slider-control-bottomcenter {
+    top: 1.4rem;
+  }
+}
